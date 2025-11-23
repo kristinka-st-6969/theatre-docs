@@ -1,0 +1,6 @@
+* [Главная](README.md)
+* [О театре](about/README.md)
+* [Афиша](repertoire/README.md)
+* [Посетителям](visit/README.md)
+  * [Закулисье](visit/backstage.md)
+* [Контакты](contacts/README.md)
