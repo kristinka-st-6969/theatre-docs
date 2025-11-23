@@ -2,25 +2,27 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <title>Документация Театра Драмы</title>
+  <title>Театр Драмы - Документация</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Документация мобильного приложения театра">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
 </head>
 <body>
-  <div id="app"></div>
+  <div id="app">Загрузка документации...</div>
+  
   <script>
     window.$docsify = {
       name: 'Театр Драмы',
-      repo: '',
       loadSidebar: true,
-      subMaxLevel: 2,
-      auto2top: true,
-      basePath: '/theatre-docs'
+      subMaxLevel: 3,
+      autoHeader: true,
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md'
+      }
     }
   </script>
+  
   <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
-  <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
 </body>
 </html>
